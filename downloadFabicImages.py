@@ -186,7 +186,7 @@ def upload_firmwares():
 
 
 # Step 4: Download firmware files with progress tracking
-#download_firmwares()
+download_firmwares()
 
 # Step 5: Zip the downloaded firmware files
 '''firmwares_zip_path = "firmwares.zip"
