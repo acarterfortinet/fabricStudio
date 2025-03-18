@@ -1,19 +1,19 @@
 {
   "source_server": {
-    "host": "XXXX",
-    "url": "XXXX",
+    "host": "fabricstudio.example.url/",
+    "url": "https://fabricstudio.example.url/",
     "port": 22,
-    "username": "XXXX",
-    "password": "XXXX"
+    "username": "admin",
+    "password": "password"
   },
   "destination_server": {
-    "host": "XXX",
-    "username": "XXXX",
-    "password": "XXXX",
-    "remote_directory": "XXXX"
+    "host": "fabricstudio.example-dest.url/",
+    "username": "admin",
+    "password": "password",
+    "remote_directory": "firmwares"
   },
   "paths": {
-    "zip_file": "XXXXX",
+    "zip_file": "eSOC FCSS Security Operations 7.4 Analyst.zip",
     "extracted_config": "data/config_extract",
     "firmwares_dir": "data/firmwares",
     "data_dir": "data"
