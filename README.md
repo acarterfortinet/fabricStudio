@@ -93,6 +93,10 @@ python3 downloadFabicImages.py > output.log 2>&1
 
 This will capture both standard output and errors in `output.log`.
 
+## Uploading to FabricStudio
+
+Finally import the fabric file .zip into FabricStudio
+
 ## Error Handling
 
 - If a required configuration key is missing, the script will raise a `KeyError`.
@@ -119,15 +123,4 @@ A security analyst working with `eSOC FCSS Security Operations 7.4` needs to mig
 - Support additional authentication methods (e.g., SSH keys).
 - Add logging to a file instead of only console output.
 
-## Uploading to GitHub
 
-To upload the script and related files to a GitHub repository, follow these steps:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Fabric Images Downloader & Uploader"
-git branch -M main
-git remote add origin https://github.com/your-username/your-repo.git
-git push -u origin main
-```
